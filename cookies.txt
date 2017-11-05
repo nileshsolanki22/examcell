@@ -1,0 +1,15 @@
+/*
+			/* setting cookies */
+
+			// Create cookies for name and usertype      
+			Cookie Name = new Cookie(userdbName,"name");
+			Cookie UserType = new Cookie(dbUsertype,"usertype");
+
+			// Set expiry date after 24 Hrs for both the cookies.
+			Name.setMaxAge(24*60*60); 
+			UserType.setMaxAge(24*60*60); 
+
+			// Add both the cookies in the response header.
+			response.addCookie( Name );
+			response.addCookie( UserType );
+			*/
